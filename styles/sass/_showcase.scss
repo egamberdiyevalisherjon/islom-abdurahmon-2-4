@@ -1,0 +1,9 @@
+section#showcase {
+  height: 85vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(black, 0.7), rgba(black, 0.7)),
+    url(https://templates.templatedri.com/consult-2/images/banner.jpg) center /
+      cover no-repeat fixed;
+}

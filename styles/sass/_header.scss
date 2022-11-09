@@ -1,0 +1,10 @@
+header#main-header {
+  li {
+    transition: color 0.3s ease-in;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--bs-success);
+    }
+  }
+}

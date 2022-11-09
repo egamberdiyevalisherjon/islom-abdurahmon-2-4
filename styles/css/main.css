@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header#main-header li {
+  transition: color 0.3s ease-in;
+  font-weight: 500;
+}
+header#main-header li:hover {
+  color: var(--bs-success);
+}
+
+section#showcase {
+  height: 85vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://templates.templatedri.com/consult-2/images/banner.jpg) center/cover no-repeat fixed;
+}
+
+section#expart .card {
+  transition: box-shadow 0.3s ease-in;
+  overflow: hidden;
+}
+section#expart .card .wrapper {
+  height: 250px;
+  overflow: hidden;
+}
+section#expart .card img {
+  transition: transform 0.3s ease-in;
+}
+section#expart .card:hover {
+  box-shadow: 0 0 20px var(--bs-gray-400);
+}
+section#expart .card:hover img {
+  transform: scale(1.2);
+}
+
+section#stats {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://templates.templatedri.com/consult-2/images/bg3.jpg) center/cover no-repeat fixed;
+  padding: 10rem 0;
+}/*# sourceMappingURL=main.css.map */
